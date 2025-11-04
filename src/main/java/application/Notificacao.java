@@ -16,7 +16,7 @@ public abstract class Notificacao {
 
     public void exibirInformacoesRemetente(){
         System.out.println(
-            "-- Notificação de " + this.remetente + "em" + this.dataEnvio);
+            "-- Notificação de " + this.remetente + " em " + this.dataEnvio);
     }
 
     public abstract void enviar();
